@@ -1,0 +1,33 @@
+PODS:
+  - DCKeyValueObjectMapping (1.5)
+  - iOSUtils-Swift (1.5.4):
+    - DCKeyValueObjectMapping
+    - Kingfisher
+    - SimpleExif
+    - sqlite3
+    - SwiftDate (~> 4.0)
+  - Kingfisher (3.1.3)
+  - SimpleExif (0.0.1)
+  - sqlite3 (3.14.2):
+    - sqlite3/common (= 3.14.2)
+  - sqlite3/common (3.14.2)
+  - SwiftDate (4.0.5)
+
+DEPENDENCIES:
+  - iOSUtils-Swift (from `../`)
+
+EXTERNAL SOURCES:
+  iOSUtils-Swift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DCKeyValueObjectMapping: c2eb5a6529da100b2e49ef6a599663578051f077
+  iOSUtils-Swift: c98fc9e2db82e02e7a27d9c619de8dc09857d12e
+  Kingfisher: 007f5851c18c81e7cc106c9cbac1bafea1cce5dc
+  SimpleExif: 61ba6dce666641dc4b925d9d26a2694e68ebbf4b
+  sqlite3: 0da4924a394eff8e354bb63138818c870b28b097
+  SwiftDate: a945bf4150ef977824df91116ca30a04604216d3
+
+PODFILE CHECKSUM: c25e452593d6aa3e4b3c5782515c7fc659824347
+
+COCOAPODS: 1.2.1

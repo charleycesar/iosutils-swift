@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LibWebViewController" customModule="iOSUtils_Swift" customModuleProvider="target">
+            <connections>
+                <outlet property="progress" destination="zTy-HS-vAf" id="LTx-qr-eBJ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="C0b-E0-9cO"/>
+                <outlet property="webView" destination="33l-um-1FE" id="Kpz-9P-0Ax"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Lib Web View">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="33l-um-1FE">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="y22-jZ-p5r"/>
+                    </connections>
+                </webView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="zTy-HS-vAf">
+                    <rect key="frame" x="290" y="290" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zTy-HS-vAf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="17r-Og-qhq"/>
+                <constraint firstAttribute="bottom" secondItem="33l-um-1FE" secondAttribute="bottom" id="3cn-Y2-JBC"/>
+                <constraint firstItem="zTy-HS-vAf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="HOY-k4-B01"/>
+                <constraint firstItem="33l-um-1FE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Hch-6i-d3d"/>
+                <constraint firstAttribute="trailing" secondItem="33l-um-1FE" secondAttribute="trailing" id="SYQ-l3-njD"/>
+                <constraint firstItem="33l-um-1FE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pOk-yo-vk8"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+{
+    "io_error": "Erro de comunicação com o servidor.",
+    "network_unavailable_error": "Rede indisponível.",
+    "generic_error": "Ocorreu um erro, favor tentar novamente.",
+    "progress_dialog_default_message": "Aguarde..."
+}

@@ -1,0 +1,38 @@
+{
+  "name": "iOSUtils-Swift",
+  "version": "1.5.4",
+  "summary": "Lib de iOS da Livetouch em Swift.",
+  "description": "\"Lib de iOS da Livetouch em Swift para facilitar desenvolvimento de aplicativos na plataforma iOS.\"",
+  "homepage": "https://bitbucket.org/livetouchdev/iosutils-swift",
+  "license": "MIT",
+  "authors": {
+    "Gregory Sholl e Santos": "gregorysholl@livetouch.com.br"
+  },
+  "source": {
+    "git": "https://bitbucket.org/livetouchdev/iosutils-swift",
+    "tag": "1.5.4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resources": "Pod/Resources/**/*",
+  "dependencies": {
+    "DCKeyValueObjectMapping": [
+
+    ],
+    "sqlite3": [
+
+    ],
+    "SwiftDate": [
+      "~> 4.0"
+    ],
+    "SimpleExif": [
+
+    ],
+    "Kingfisher": [
+
+    ]
+  }
+}
