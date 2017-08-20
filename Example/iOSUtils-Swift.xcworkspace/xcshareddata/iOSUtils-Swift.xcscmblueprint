@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CD239A11027554556A94E2728E1B6082327231AB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "89F53665045104048314FE6DA3C3ACB01900E472" : 0,
+    "CD239A11027554556A94E2728E1B6082327231AB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CCE25112-6110-491F-8BCB-3284837AD0DB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "89F53665045104048314FE6DA3C3ACB01900E472" : "",
+    "CD239A11027554556A94E2728E1B6082327231AB" : "swift3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSUtils-Swift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/iOSUtils-Swift.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HIAE\/vacinas-mobile-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "89F53665045104048314FE6DA3C3ACB01900E472"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/livetouchdev\/iosutils-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD239A11027554556A94E2728E1B6082327231AB"
+    }
+  ]
+}
